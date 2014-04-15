@@ -1,78 +1,280 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+
+<!--
+___________________________________________________________________
+   __  __        __  __  
+  |  \/  |_ _   |  \/  |
+  | |\/| | '_|  | |\/| |_
+  |_|  |_|_|(_) |_|  |_(_)
+
+
+
+
+  Project:....:  Twitter Bootstrap 3 Tutorial Template
+  Version.....: 0.11
+ 
+  Author......: Mr. McCormack - Confederation College
+  Copyright...: (c) 2014 Mr. McCormack
+ 
+  Temp. Debug.: ???
+ 
+  Created.....: 2014.01.10
+  Updated.....: 2014.01.10
+
+  Reference...: Tutorial of IM 215 Class
+
+  Notes.......: 
+
+  License: MIT License (MIT), same as Twitter Bootstrap
+
+___________________________________________________________________
+
+-->
+
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Portfolio by StarkeyLicoriceBunny</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/StarkeyLicoriceBunny/portfolio">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/StarkeyLicoriceBunny/portfolio/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/StarkeyLicoriceBunny/portfolio/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
-
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>Portfolio</h1>
-          <p>Medium Portfolio</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/StarkeyLicoriceBunny">StarkeyLicoriceBunny</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
-        <h3>
-<a name="rob-farrow" class="anchor" href="#rob-farrow"><span class="octicon octicon-link"></span></a>Rob Farrow.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <!--
+    This causes validation error, but leave it
+    ref:
+    http://www.validatethis.co.uk/news/fix-bad-value-x-ua-compatible-once-and-for-all/
+     -->
     
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+
+    <title>Rob Farrow's Portfolio Site</title>
+
+<link rel="apple-touch-icon" href="img/Favthing.png">
+
+<link rel="apple-touch-icon" sizes="76x76" href="img/Favthing.png">
+
+<link rel="apple-touch-icon" sizes="120x120" href="img/Favthing.png">
+
+<link rel="apple-touch-icon" sizes="152x152" href="img/Favthing.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+
+<h2>Rob Farrow's Portfolio</h2>
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Sites<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="http://jokerzthefox.deviantart.com">My Deviantart</a></li>
+                  <li><a href="http://ask-jigsaw.tumblr.com/">My Tumblr</a></li>
+                  <li><a href="https://www.youtube.com/user/ReyFlamedramon">My YouTube</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">More</li>
+                  <li><a href="http://www.creativeuncut.com/">Inspiration</a></li>
+                  <li><a href="http://skullgirls.wikia.com/wiki/Skullgirls_Wiki">More Inspiration</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+<h2>Recent Photoshop Work</h2>
+      <!-- Begin page content -->
+      <div class="container">
+
+
+
+
+<div class="jumbotron">
+  <h1>Welcome to my Portfolio</h1>
+  <p>This is the official portfolio for Robert Farrow, student at Confederation College and mad artist.</p>
+
+  <p><img src="img/CheshireCat.jpg" class="img-responsive img-circle" alt="Responsive image">
+
+<button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star"></span> Star
+</button>
+
+
+
+  </p>
+
+  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+</div>
+
+
+  <!-- Begin Mr. M.'s Rows --> 
+  
+
+            <div class="row">
+
+
+            <div class="col-md-4">
+              <h2>The Basics</h2>
+              <p>My name's Rob, I was born on January 10th 1993, I love drawing and playing video games. I also enjoy writing and animation, whenever I find the time, and coming up with all sorts of bizarre concepts. I also happen to love animals, anything fluffy and four legged usually makes me melt…unless it's a wounded Caveman or something.</p>
+              
+            </div><!--/span-->
+
+
+
+            <div class="col-md-4">
+              <h2>Style</h2>
+              <p>My style utilizes a mix of simplicity with deeper meanings and hidden dark depths beneath the adorable surface. My personal style usually consists of adorable animals or creatures doing not-so-adorable things. I like to believe that as long as it's properly conveyed, the true horror of an image can peek through at the viewer. Of course, I'm more than comfortable working with other styles as well if needed.</p>
+              
+            </div><!--/span-->
+
+
+
+            <div class="col-md-4">
+              <h2>Education and Current Project</h2>
+              <p>I'm currently in my second semester of my second year at Confederation college, working on a large game project with three other gentlemen in my course.</p>
+                          </div><!--/span-->
+
+
+
+
+
+          </div><!--/row-->
+
+
+  <!-- ENDMr. M.'s Rows --> 
+
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/TheGame.jpg" alt="helpme" height="1000" width="900" >
+		</div>
+
+   <div class="item">
+      <img src="img/MinnieAndTheMonster.jpg" alt="minnie" height="1000" width="900">
+		</div>      
+
+   <div class="item">
+      <img src="img/ConfidenceBane.jpg" alt="gryph">
+		</div>      
+
+<div class="carousel-caption">
+        ...
+      </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+
+
+
+<div class="row">
+
+
+  <div class="col-md-3"><h1>We're</h1></div>
+  <div class="col-md-3"><h1>All</h1></div>
+  <div class="col-md-3"><h1>Mad</h1></div>
+  <div class="col-md-3"><h1>Here</h1></div>
+
+<p>
+                <a href="http://validator.w3.org/check?uri=referer;ss=1"><small> HTML</small><sup>5</sup></a>
+            </p>
+
+<p>
+                <!--
+                1. you must code in the uri= , there is no referer with this service
+                2. you can use languages other than English, just change lang=en_US
+                --> 
+                             
+                 <a href="http://www.w3.org/2002/01/spellchecker?uri=http://bootsnipp.com/iframe/82BW&&amp;lang=en_US&amp;suggest=on" title="check all links"><span class="glyphicon glyphicon-font" style="color: #f00;"></span></a>
+ </p>
+
+</div>
+
+</div><!--/span-->
+
+
+
+<!-- end container-->
+</div>
+
+
+<div class="container">
+	<div class="row">
+        <div class="col-sm-3">
+    		<div class="tile-progress tile-primary">
+    			<div class="tile-header">
+    				<h3>Visitors</h3>
+    				<span>so far in our blog, and our website.</span>
+    			</div>
+    			<div class="tile-progressbar">
+    				<span data-fill="65.5%" style="width: 65.5%;"></span>
+    			</div>
+    			<div class="tile-footer">
+    				<h4>
+    					<span class="pct-counter">65.5</span>% increase
+    				</h4>
+    				<div class="tile-footer">    			</div>
+    		</div>
+    	</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
   </body>
 </html>
